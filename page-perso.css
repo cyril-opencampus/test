@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "IndieFlower";
+    src: url('./fonts/IndieFlower-Regular.ttf');
+}
+
+body {
+    font-family: "IndieFlower";
+    background-color:lightyellow;
+    /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); */
+    padding: 15px;
+}
+
+.presentation {
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    border: 5px dashed  lightgray;
+    /* racourci pour m'éviter de mettre :
+    border-width: 5px;
+    border-style: dashed;
+    border-color: lightgray; */
+    
+}
+
+.texte-important{
+    font-weight: bold;
+}
+
+
+#sectionTitre {
+    text-align: center;
+}
+
+#sectionTitre img {
+    border-radius: 100%;
+}
+
+.titre {
+    font-weight: 800;
+}
+
+.sous-titre {
+    font-weight: 800;
+}
+
+.textevert{
+    color: green;
+}
+
+.texterouge{
+    color: red;
+}
+
+.liste-inline li {
+    display: inline;
+    margin-right: 25px;
+}
+
+.section {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px ;
+}
+
+#experiences, .liste-competences{
+    list-style: url(./badge.png);
+}
+
+.type-competence{
+    font-weight: bold;
+    text-decoration: underline;
+}
